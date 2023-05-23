@@ -23,7 +23,7 @@ Google Colab:
 
 PPT: https://docs.google.com/presentation/d/1dSqTXfnWkAi_-Jd5yaYdcGR10QfWNZoq/edit#slide=id.p1
 
-Github Repository: https://github.com/ravitejareddy-dodda/258-Deep-Learning-Group/tree/main
+Github Repository: https://github.com/sanjaybhargavm/CMPE258_FinalProject.git
 
 Project Report: https://docs.google.com/document/d/1VTiTr8Na_DSLzy6u1gtW3HNmW-Zs1JdLBzCSmylVzL4/edit#
 
