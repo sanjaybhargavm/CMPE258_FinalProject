@@ -13,7 +13,7 @@ Working:
 8. Use the pickle file for deployment in AWS EC2 instance
 9. Fetch the data from deployment and pass it to the developed UI to generate the required results
 
-Related Documents:
+--Related Documents below--
 
 Colabs: 
 
@@ -27,6 +27,6 @@ Github Repository: https://github.com/sanjaybhargavm/CMPE258_FinalProject.git
 
 Project Report: https://docs.google.com/document/d/1VTiTr8Na_DSLzy6u1gtW3HNmW-Zs1JdLBzCSmylVzL4/edit#
 
-Demo URL: 
+Demo URL: https://drive.google.com/file/d/19atejGZoLzCoCVXqhJXc_ROoYjZDSf2Y/view
 
 Paper: https://arxiv.org/ftp/arxiv/papers/1904/1904.04096.pdf
