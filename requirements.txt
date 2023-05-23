@@ -1,0 +1,9 @@
+uvicorn
+fastapi
+sklearn
+pandas
+numpy
+dill
+future
+torch
+transformers

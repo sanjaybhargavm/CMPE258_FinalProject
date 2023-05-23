@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Sentiment Analysis</title>
+
+  <link href="{{ url_for('static', filename='vendor/css/bootstrap.css') }}" rel="stylesheet" type="text/css">
+  <!-- Bootstrap core CSS -->
+  <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+
+  <!-- Custom fonts for this template -->
+  <link href="{{ url_for('static', filename='vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet"
+    type="text/css">
+  <!-- <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet"> -->
+  <link href="{{ url_for('static', filename='vendor/simple-line-icons/css/simple-line-icons.css') }}" rel="stylesheet"
+    type="text/css">
+  <!--   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+    type="text/css">
+
+  <!-- Custom styles for this template -->
+  <!-- <link href="css/landing-page.min.css" rel="stylesheet"> -->
+  <link href="{{ url_for('static', filename='css/landing-page.min.css') }}" rel="stylesheet">
+  <!-- <link href="css/grayscale.min.css" rel="stylesheet"> -->
+
+</head>
+
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="/">Home</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#learn"> Learn more</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Masthead -->
+  <header class="masthead text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5">Covid-19 Vaccine Sentiment Prediction</h1>
+        </div>
+        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+          <div class="search-container">
+            <h5 class>Corpus built from data analyzing...</h5>
+            <form action="/resultspage" method="post">
+              <input type="text" class="search-box" placeholder="Any tweets with hashtag" name="search" required>
+              <button class="search-button">
+                Analyze This Tweet</button>
+          </div>
+        </div>
+        </form>
+      </div>
+    </div>
+    </div>
+  </header>
+
+  <!-- Icons Grid -->
+  <section class="features-icons bg-light text-center">
+    <div class="container">
+      <h4>
+        <p>Business use cases:</p>
+      </h4>
+      <h5>
+        <p>1. Detecting people’s opinion towards vaccine</p>
+        <p>2. Identify overall customer ratings for various vaccines from different providers</p>
+        </p>
+      </h5>
+
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <!-- https://simplelineicons.github.io/ -->
+              <!-- this is the website for icons -->
+              <i class="icon-layers m-auto text-primary"></i>
+            </div>
+            <h3>Project Workflow</h3>
+            <p class="lead mb-0">Identified a problem and explored possible solutions with machine learning</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-calculator m-auto text-primary"></i>
+            </div>
+            <h3>Data Exploration</h3>
+            <p class="lead mb-0">Annotating tweets and exploring models</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-graph m-auto text-primary"></i>
+            </div>
+            <h3>Data Visualization</h3>
+            <p class="lead mb-0">Representing our data in an easy and readable format</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Image Showcases -->
+  <section id="learn" , section class="showcase">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+
+        <div class="col-lg-6 order-lg-2 text-white my-auto showcase-img">
+          <img src="static/img/workflow.jpg" class="order-lg-2 img-fluid" alt="">
+        </div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Project Workflow</h2>
+          <p class="lead mb-0">we noticed that many people became skeptical about the vaccines
+            from Pfizer to Covaxin. Online discussions always seemed so one-sided, with many
+            people misinformed about the vaccine. In addition, we saw that many anti-vaccine groups grew online, and we
+            wanted to explore the trends associated with this. So, we decided to build a model that could aggregate
+            tweets and analyze the sentiment trends.
+          </p>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 text-white my-auto showcase-img color:blue">
+          <img src="static/img/learning.jpg" class="order-lg-2 img-fluid" alt="">
+        </div>
+        <div class="col-lg-6 my-auto showcase-text">
+          <h2>Data Exploration</h2>
+          <p class="lead mb-0">After scraping the data, we tried three approaches:</p>
+
+          Supervised Learning:
+          <li> Linear models: Logistic Regression</li>
+          <li> Non-linear Models: Naive Bayes, SVM, Decision Trees</li>
+          Unsupervised Learning:
+          <li>SVD + Topic Modelling</li>
+          Deep Learning Models:
+          <li>Baseline: RNN</li>
+          <li>More complex sequence models: GRU, LSTM (bidirectional)</li>
+          <a href="https://github.com/vishnuvryeruva/Covid-Vaccine-Sentiment-Prediction">
+              model </a> After training the accuracy for Deep learning is as high as 88% 
+              and for classifier it has the highest validation score of 76%
+          </h5>
+
+
+
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 my-auto text-white showcase-img">
+          <img src="static/img/visualization.jpg" class="order-lg-2 img-fluid" alt="">
+        </div>
+        <div class="col-lg-6 my-auto showcase-text">
+          <h2>Data Visualization</h2>
+          <p class="lead mb-0"> Our dataset is trained on tweets from the last year, and we noticed
+            that the tweets contained many headlines from news outlets. So, we decided to label those as "Nuetral". As
+            shown in the graph, we had a large imbalanced dataset to deal with, since there were many auto-generated
+            headline tweets, and not as many negative and positive tweets from real users.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="testimonials text-center bg-light">
+    <div class="container">
+      <h2 class="mb-5">About Us</h2>
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="static/img/subarna.jpg" alt="">
+            <h5>Subarna Chowdhury Soma</h5>
+            <p class="font-weight-light mb-0"><a href=https://www.linkedin.com/in/s-c-soma/ />LinkedIn </a>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="static/img/ashika.jpg" alt="">
+            <h5>Ashika Anand Babu</h5>
+            <p class="font-weight-light mb-0"><a href=https://www.linkedin.com/in/ashikaa/ />LinkedIn </a>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="static/img/mine.jpg" alt="">
+            <h5>Vishnu Vardhan Reddy Yeruva</h5>
+            <p class="font-weight-light mb-0"><a href=https://www.linkedin.com/in/vishnu-vardhan-reddy-yeruva-b9b870a5/ />LinkedIn </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+          <ul class="list-inline mb-2">
+        </div>
+        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item mr-3">
+              <a href="https://github.com/vishnuvryeruva/Covid-Vaccine-Sentiment-Prediction">
+                <i class="fab fa-github fa-2x fa-fw"></i>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <!--     <link href="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}" rel="stylesheet" type="text/css" > -->
+  <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}">
+  </script>
+  <!--   <link href="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}" rel="stylesheet" type="text/css" > -->
+  <script src="{{ url_for('static', filename='vendor/js/bootstrap.bundle.min.js') }}">
+  </script>
+
+</body>
+
+</html>
