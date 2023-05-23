@@ -15,11 +15,11 @@ Working:
 
 Related Documents:
 
-Google Colab: 
+Colabs: 
 
- Testing Colab- https://colab.research.google.com/drive/11L3Q_gm7d--c4GZTj-gUOJhYC3odx8gQ
+Testing Colab- https://colab.research.google.com/drive/11L3Q_gm7d--c4GZTj-gUOJhYC3odx8gQ
 
- Main Colab- https://colab.research.google.com/drive/1gcFEx3UqXkdlQ2kSqeIMa6ZXcwkPgmhy
+Main Colab- https://colab.research.google.com/drive/1gcFEx3UqXkdlQ2kSqeIMa6ZXcwkPgmhy
 
 PPT: https://docs.google.com/presentation/d/1dSqTXfnWkAi_-Jd5yaYdcGR10QfWNZoq/edit#slide=id.p1
 
