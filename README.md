@@ -1,4 +1,4 @@
-# CMPE258_FinalProject
+# Enterprise Review Sentiment Analysis
 
 Enterprise Review Sentiment Analysis
 
