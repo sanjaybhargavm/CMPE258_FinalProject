@@ -10,7 +10,7 @@ Working:
 5. Create a Model with the pre-processed data
 6. Check the accuarcy and select model
 7. Dump the model into pickle file
-8. Use the pickle files
+8. Use pickle files
 9. Fetch the data from deployment and pass it to the developed UI to generate the required results
 
 --Related Documents below--
